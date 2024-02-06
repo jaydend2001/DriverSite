@@ -1,3 +1,5 @@
+<img src="https://camo.githubusercontent.com/0c7abc8b9160c9fc9768750b21d3c225abbbee155dc4474f36e147b27348dd12/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f35666a58485a513743614b6a3050676276762f67697068792e676966" data-canonical-src="https://media.giphy.com/media/5fjXHZQ7CaKj0Pgbvv/giphy.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+
 # DriverSite README.md
 
 ## Project Overview
