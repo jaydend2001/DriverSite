@@ -1,0 +1,47 @@
+﻿@page
+@model DriverSite.Pages.SupplyDemandModel
+@{
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        Supply and Demand
+    </h1>
+
+    <p>
+        For more information on the supply and demand of DoorDash, visit <a href="https://doordash.engineering/2021/06/29/managing-supply-and-demand-balance-through-machine-learning/">here</a>.
+    </p>
+</div>
+
+<br />
+
+<div class="text-allign: left">
+    <h2>
+        How do climate conditions affect driving occupations like DoorDash?
+    </h2>
+    <body>
+        <dl>
+            <dt>Cold Climates</dt>
+            <dd>Icy roads and other hazardous driving conditions are more prevalent, causing an increase in people who choose to stay at home.</dd>
+            <dt>Warm Climates</dt>
+            <dd>Typical levels of business are carried out with little to no change in either supply or demand of drivers.</dd>
+            <dt>Hot Climates</dt>
+            <dd>There is lower demand under these climate conditions as people are generally out and about in hotter weather.</dd>
+        </dl>
+
+        <br />
+
+        <p>We are gathering data about the climate conditions of people who visit our site. Please record your response below!</p>
+        <button id="myBtn" type="button">Record Response</button>
+
+        <script>
+            const myBtn = document.getElementById("myBtn");
+
+            myBtn.addEventListener("click", function (e) {
+                const name = prompt("Which type of climate do you live in: cold, warm, or hot?");
+
+                document.body.innerHTML = "<h1>Thank you, your response has been recorded: " + name + "</h1>";
+            });
+        </script>
+    </body>
+</div>
